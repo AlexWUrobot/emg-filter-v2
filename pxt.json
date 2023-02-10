@@ -1,0 +1,25 @@
+{
+    "name": "emg-filter-v2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "servo": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
