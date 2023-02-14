@@ -8,7 +8,7 @@ let ave = 0
 let sum = 0
 let list: number[] = []
 let EMG_code = 0  // Change the EMG name to EMG_code so student's variable will not have conflict
-for (let index = 0; index <= 100; index++) {
+for (let index = 0; index <= 25; index++) {
     EMG_code = pins.analogReadPin(AnalogPin.P3)
     //list.push(0)
     list.push(EMG_code)
